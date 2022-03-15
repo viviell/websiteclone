@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-size-adjust: 100%;
+}
+
+.logo_left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 2.5rem;
+    margin-right: 3.75rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.women {
+    margin-right: 16px;
+    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    border: 6px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: .815rem;
+}
+
+.men {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .815rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.search {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 13px !important;
+    width: 15.9375rem;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.icons {
+    color: black;
+    margin: 5px;
+}
+
+.side-bar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
