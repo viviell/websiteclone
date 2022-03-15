@@ -1,7 +1,8 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     text-size-adjust: 100%;
+    font-weight: bold;
 }
 
 .logo_left {
@@ -33,10 +34,11 @@
     text-transform: uppercase;
     text-decoration: none;
     font-size: .815rem;
+    float: right;
 }
 
 header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     border-bottom: 1px solid white;
     display: flex;
@@ -67,7 +69,32 @@ header {
 }
 
 .side-bar {
+    background-image: url('./bershka-cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 1.5rem;
+}
+
+.item {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 6px;
+}
+
+.last-item {
+    text-transform: none;
+    margin: 6px;
+    font-size: 23px;
 }
