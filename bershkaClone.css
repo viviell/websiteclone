@@ -151,6 +151,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5.625rem;
 }
 
 h1 {
@@ -279,4 +280,29 @@ button {
     font-size: 10px;
     margin-top: 3px;
     margin-left: 88px;
+}
+
+
+.left-column {
+    display: inline-block;
+    margin: 23px;
+}
+
+.left-column h4 {
+    margin-left: 48px;
+}
+
+.help-module {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.interests {
+    display: flex;
+    flex-direction: column;
 }
