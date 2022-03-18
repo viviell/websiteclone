@@ -1,8 +1,19 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
     font-size: 16px;
     text-size-adjust: 100%;
     font-weight: bold;
+    margin: 0;
+}
+
+main {
+    padding: 40px;
+    margin-right: -71px;
+    margin-left: -43px;
 }
 
 .logo_left {
@@ -39,7 +50,7 @@
 }
 
 header {
-    position: sticky;
+    position: fixed;
     width: 100%;
     border-bottom: 1px solid white;
     display: flex;
@@ -49,12 +60,14 @@ header {
     z-index: 1;
     opacity: 1;
     margin-top: -10px;
+    margin-left: -3px;
+    background-color: white;
 }
 
 .search {
     display: inline-block;
     margin-right: 1rem;
-    margin-bottom: 13px !important;
+    margin-bottom: 0;
     width: 15.9375rem;
     text-decoration: none;
     color: black;
@@ -199,6 +212,7 @@ ul {
 li {
     margin: 10px;
     font-size: 11px;
+    cursor: pointer;
 }
 
 .bottom {
@@ -232,6 +246,45 @@ hr.solid {
     align-items: flex-start;
     flex-direction: column;
 }
+
+.right {
+    margin-right: 128px;
+    margin-top: 52px;
+    color: auto;
+}
+
+.fa {
+    padding: 9px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+
 
 .contact-module {
     flex-direction: column;
